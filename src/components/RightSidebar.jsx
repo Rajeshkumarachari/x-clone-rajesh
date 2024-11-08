@@ -24,6 +24,16 @@ export default function RightSidebar() {
           />
         </form>
       </div>
+      <div className="bg-gray-100 rounded-xl my-4 p-3  ">
+        <h2 className=" text-[23px] font-bold">Subscribe to Premium</h2>
+        <p className="font-medium text-lg">
+          Subscribe to unlock new features and if eligible, receive a share of
+          revenue.
+        </p>
+        <button className=" bg-sky-500 text-white px-4 py-2 mt-3 font-semibold text-base rounded-[26px] ">
+          Subscribe
+        </button>
+      </div>
       <News />
     </>
   );
